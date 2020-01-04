@@ -9,8 +9,6 @@ WHERE z.id = 3
 UPDATE karty_wedkarskie SET punkty=10 WHERE id=2
 
 
-
-
 select imie, nazwisko from karty_wedkarskie k left 
 OUTER JOIN zawody_wedkarskie z 
 on z.Karty_wedkarskie_id = k.id WHERE z.id = 3
